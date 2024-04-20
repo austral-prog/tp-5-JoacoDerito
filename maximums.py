@@ -6,8 +6,7 @@ def max_of_two(x, y):
         return y
     elif x==y:
         return x
-
-
+        
 def max_of_three(x, y, z):
 
     if (x>=y and x>z) or (x>y and x>=z):
