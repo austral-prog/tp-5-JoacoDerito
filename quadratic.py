@@ -15,11 +15,3 @@ def to_string(a, b, c):
     return "f(x) = " + str(a) + " * X^2 + " + str(b) + " * X + " + str(c)
 def derivation(a, b):
     return "f'(x) = " + str(2*a) + "x + " + str(b)
-print(roots(1, -3, 2))  
-print(roots(1, -2, 1))  
-print(roots(1, 2, 3))   
-print(value_y(1, -3, 2, 0))   
-print(value_y(1, -3, 2, 1))   
-print(value_y(1, -3, 2, -1))  
-print(to_string(2, -3, 1))    
-print(derivation(2, -3))   
